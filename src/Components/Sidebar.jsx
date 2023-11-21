@@ -57,7 +57,7 @@ const Sidebar = ({toggle}) => {
             )}
         </div>
 
-            <div className=' absolute bottom-[20%] w-[80%] -translate-x-[50%] left-[50%]'>
+            <div className=' absolute bottom-[10%] w-[80%] -translate-x-[50%] left-[50%]'>
                <a href={resume} download="Inaolaji Tope CV.pdf"><Button color='primary' text='Resume' bg='secondary'/></a> 
                <a href={letter} download="Inaolaji cover letter.pdf"><Button color='primary' bg='primary' text='Cover Letter'/></a>
             </div>

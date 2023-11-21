@@ -6,7 +6,7 @@ import letter from '../assets/Inaolaji cover letter.pdf'
 
 const Home = () => {
   return (
-    <div id='home' className='section min-h-screen w-full home-bg flex flex-col lg:flex-row items-center lg:gap-[5rem]  justify-evenly'>
+    <div id='home' className='section min-h-screen w-full home-bg test flex flex-col lg:flex-row items-center lg:gap-[5rem]  justify-evenly'>
 
       <motion.div 
           className='lg:max-w-[50%] lg:text-left pt-[50px]'
