@@ -2,13 +2,14 @@ import React from 'react'
 import homeImg from '../assets/homeImg.png'
 import Button from './Button'
 import {motion} from 'framer-motion'
+import letter from '../assets/Inaolaji cover letter.pdf'
 
 const Home = () => {
   return (
     <div id='home' className='section min-h-screen w-full home-bg flex flex-col lg:flex-row items-center lg:gap-[5rem]  justify-evenly'>
 
       <motion.div 
-          className='lg:max-w-[50%]  text-center lg:text-left'
+          className='lg:max-w-[50%] lg:text-left pt-[50px]'
             animate={{
               y:0,
             }}
@@ -19,26 +20,29 @@ const Home = () => {
               duration:1,
             }}
       >
-         <h1 className='text-7xl lg:text-8xl font-bold text-secondary'>Frontend Developer/<br/>Graphic Desinger.
-         </h1>
-         <p className='text-3xl text-white lg:leading-[2] leading-[1.2] pt-10'>
+        <p className='text-secondary text-3xl md:text-5xl font-mono lg:text-3xl'>Hi, my name is</p>
+        <h1 className='lg:text-6xl md:text-5xl text-5xl font-bold py-8  text-white'>Inaolaji Tope Michael.</h1>
+         <h2 className='lg:text-6xl md:text-5xl text-5xl font-bold text-slate-400'>Frontend Developer/<br/>Graphic Desinger.
+         </h2>
+         <p className='text-3xl  md:text-4xl text-slate-400  leading-[1.2] pt-10'>
             I'm a creative designer, I like to craft solid and scalable frontend products with great user experience, eager to embark on a journey of professional growth.
           </p>
 
-        <div  className='mt-10'>
-            <a href="">
-                <button className='text-4xl text-primary bg-tertiary rounded-md px-7 py-2 border-2 border-secondary'>Resume</button>
+        <div  className='mt-[40px] flex flex-col md:flex-row  gap-7'>
+          <a href={letter} download="Inaolaji cover letter.pdf">
+                  <button className='text-3xl text-secondary rounded-md px-[40px] py-3 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Cover Letter</button>
+            </a>
+        
+            <a href="#projects">
+                  <button className='text-3xl  text-secondary rounded-md px-[40px]  py-3 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Project</button>
             </a>
        
-           <a href="#project">
-                 <button className='text-4xl text-primary bg-tertiary rounded-md px-7 py-2 border-2 border-secondary ml-[40px]'>Project</button>
-           </a>
         </div>
 
       </motion.div>
 
       <motion.div 
-          className='hidden md:block max-lg:w-[80%] max-lg:mt-[30px]'
+          className='hidden lg:block max-lg:w-[80%] max-lg:mt-[30px] pt-[50px]'
           animate={{
             scale:1,
           }}

@@ -1,15 +1,19 @@
-import aboutImg from '../assets/aboutImg.png'
+import aboutImg from '../assets/aboutImg2.png'
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { slideInAnimation, staggerAnimation } from '../animation';
 
 
 const About = () => {
+  
 
+  
+  
+  
   const AnimatedParagraph = ({ index, children }) => {
     const [ref, inView] = useInView({
       triggerOnce: true,
-      threshold: 0.8,
+      threshold: 0.2,
     });
   
     return (
@@ -29,7 +33,7 @@ const About = () => {
   return (
     <div id='about' className='section flex flex-col items-center py-[50px] gap-10 bg-primary md:flex-row'>
   
-      <div className='max-w-[80%] lg:min-w-[40%]'>
+      <div className='max-w-[80%] lg:min-w-[40%] about-img'>
         <img src={aboutImg} alt="Photo" />
       </div> 
 
@@ -39,12 +43,12 @@ const About = () => {
         animate="animate"
       >
         
-          <h1 className='lg:text-7xl md:text-5xl text-5xl mx-auto flex items-center font-bold text-white  about'>
+          <h1 className='lg:text-7xl md:text-5xl text-5xl mx-auto flex items-center font-bold text-white  heading-line'>
             About Me
           </h1>
         
         
-       <div className='mt-10 lg:text-3xl text-2xl text-tertiary'>
+       <div className='mt-10 lg:text-3xl text-2xl text-slate-400'>
 
           <AnimatedParagraph index={0}>
             Hello! My name is Inaolaji Tope Michael a passionate individual with a dream to become a proficient full-stack developer.

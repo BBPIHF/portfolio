@@ -7,68 +7,103 @@
   scroll-behavior: smooth;
 }
 
+
+
 html{
   font-size: 62.5%;
-  text-transform: capitalize;
+
 }
 
 body{
   font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  
+}
+.nav-content{
+  margin: 0 auto; 
+  max-width: 2000px; 
 }
 
+.allContainer{
+  margin: 0 auto; 
+  max-width: 2000px; 
+}
 .section{
   padding: 0 7rem;
 }
-
-/* @layer component{
-    .gradient{
-      @apply 
-    }
-} */
-
 
 
 .gradient{
 background: linear-gradient(90deg, rgba(2,0,36,1) 1%, rgba(23,51,78,1) 59%, rgba(110,171,209,1) 100%);
 }
 
+
+
 .home-bg{
   background-image: linear-gradient(to right, #17334E 70%, #6EABD1 30%);
 }
 
-.active{
-  color:#6EABD1;
-  font-weight: bold;
-}
 
-.about::after{
+.heading-line::after{
 content: "";
 display: block;
 position: relative;
-height: 1px;
+height: 2px;
+width: 10%;
 background-color:#6EABD1;
-width: 30%;
 top: 0px;
 margin-left:20px;
 }
 
+.about-img:hover{
+ filter: saturate(0);
+}
+
+.shaDow{
+  box-shadow: 1px 20px 21px -22px rgba(0,0,0,1);
+-webkit-box-shadow: 1px 20px 21px -22px rgba(0,0,0,1);
+-moz-box-shadow: 1px 20px 21px -22px rgba(0,0,0,1);
+border: 1px solid #6EABD1 ;
+}
+
+.btn{
+  border-left: 3px solid #204161;
+}
+
+.btn:hover{
+  background-color: #1b3c5a;
+  color: #6EABD1;
+}
+
+
+.status{
+  border-left: 3px solid  #6EABD1 ;
+}
+
+.bullet::before{
+  content: "▹";
+  position:absolute;
+  left: 0px;
+  color: #6EABD1;
+}
 
 
 
-@media only screen and (max-width: 999px) {
+@media only screen and (max-width: 1024px) {
   
   .home-bg{
     background: #17334E;
  }
+}
 
-  
+@media only screen and (min-width: 768px) {
+  .gradient2{
+    background: linear-gradient(90deg, rgba(110,171,209,1) 20%, rgba(23,51,78,1) 59%,  rgba(2,0,36,1) 100%);
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    font-size: 52.5%;
-  }
-
+    
   .home-bg{
     background: #17334E;
  }
@@ -78,15 +113,41 @@ margin-left:20px;
   }
 }
 
+
+
+
 @media only screen and (max-width: 640px) {
  
   .section{
-    padding: 0 2rem;
+    padding: 0 3rem;
   }
 
+  .btn{
+    border-left: none;
+    border-bottom: 3px solid #204161;
+    display: flex;
+    justify-content: center;
+  }
+
+  .status{
+    border-bottom: 3px solid  #6EABD1 ;
+  }
+
+  .btn:hover{
+    border-left: none;
+    background-color: #1b3c5a;
+    color: #6EABD1;
+    /* border-bottom: 3px solid  #6EABD1 ; */
+  }
   
 }
 
+@media only screen and (max-width: 460px) {
+  html {
+    font-size: 52.5%;
+  }
+  
+}
 
 @tailwind base;
 @tailwind components;
