@@ -43,8 +43,10 @@ const Projects = () => {
               <p className='text-3xl text-slate-300 py-8 text-mono leading-[1.5]'>{project.desc}</p>
               <p className='text-2xl text-slate-400'>{project.Tools}</p>
               <div className='flex flex-col md:flex-row md:gap-10'>
-                <button className='flex  gap-3 justify-center text-primary items-center bg-secondary  py-3 px-5 rounded-lg ring-2 font-semibold text-2xl hover:opacity-80 w-full mt-8'> <i><Github/></i> <a href={project.source} target="_blank">View Code</a></button>
-                <button className='flex gap-3 justify-center text-primary items-center bg-secondary py-3 px-5 rounded-lg ring-2 font-semibold text-2xl hover:opacity-80 w-full mt-8'> <i><Folder/></i> <a href={project.live} target="_blank">Live Preview</a></button>
+                 <a href={project.source} target="_blank" className='flex  gap-3 justify-center text-primary items-center bg-secondary  py-3 px-5 rounded-lg ring-2 font-semibold text-2xl hover:opacity-80 w-full mt-8'><Github/> View Code</a>
+
+                 <a href={project.live} target="_blank" className='flex  gap-3 justify-center text-primary items-center bg-secondary  py-3 px-5 rounded-lg ring-2 font-semibold text-2xl hover:opacity-80 w-full mt-8'><Folder/> Live Preview</a>
+
               </div>
             </div>
           </div>

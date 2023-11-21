@@ -96,7 +96,7 @@ export const projects =[
     {name:'E-learning platform', thumbnail:learning, desc:"This E-learning platform allows user to create account or login, the project features also include a user-friendly interface for seamless navigation, responsive design for optimal accessibility across devices,", Tools:"HTML, CSS, Javascript, Bootstrap", source:"https://github.com/BBPIHF/E-learning", live:"https://bbpihf.github.io/E-learning/"
     },
 
-    {name:'Portfolio', thumbnail:portfolio, desc:" Implemented dynamic content rendering and seamless navigation through React's component-based structure, overcame challenges in integrating animations for a visually appealing presentation.", Tools:"ReactJs, TailwindCSS, Frame-Motion"
+    {name:'Portfolio', thumbnail:portfolio, desc:" Implemented dynamic content rendering and seamless navigation through React's component-based structure, overcame challenges in integrating animations for a visually appealing presentation.", Tools:"ReactJs, TailwindCSS, Framer-Motion", source:'https://github.com/BBPIHF/portfolio', live:'https://inaolaji.vercel.app/'
 },
     
 ]

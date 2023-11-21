@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useRef, useEffect} from 'react'
 import Button from './Button'
 import tope from '../assets/tope.png'
 import { LinkdinIn, Github, navLinks, contacts } from '../Utils'
@@ -6,11 +6,14 @@ import {motion} from 'framer-motion'
 import resume from '../assets/Inaolaji Tope Michael cv.pdf'
 import letter from '../assets/Inaolaji cover letter.pdf'
 
+
+
 const Sidebar = ({toggle}) => {
+   
+    
   return (
     <motion.div 
         className='w-[80%] min-h-screen bg-primary fixed top-0 left-[-100vw] z-50'
-
         animate={{
             left: toggle? 0 : ""
         }}
@@ -54,7 +57,7 @@ const Sidebar = ({toggle}) => {
             )}
         </div>
 
-            <div className=' absolute bottom-[5%] w-[80%] -translate-x-[50%] left-[50%]'>
+            <div className=' absolute bottom-[20%] w-[80%] -translate-x-[50%] left-[50%]'>
                <a href={resume} download="Inaolaji Tope CV.pdf"><Button color='primary' text='Resume' bg='secondary'/></a> 
                <a href={letter} download="Inaolaji cover letter.pdf"><Button color='primary' bg='primary' text='Cover Letter'/></a>
             </div>

@@ -30,11 +30,11 @@ const Home = () => {
 
         <div  className='mt-[40px] flex flex-col md:flex-row  gap-7'>
           <a href={letter} download="Inaolaji cover letter.pdf">
-                  <button className='text-3xl text-secondary rounded-md px-[40px] py-3 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Cover Letter</button>
+                  <button className='text-3xl text-secondary rounded-md px-[40px] py-5 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Cover Letter</button>
             </a>
         
             <a href="#projects">
-                  <button className='text-3xl  text-secondary rounded-md px-[40px]  py-3 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Project</button>
+                  <button className='text-3xl  text-secondary rounded-md px-[40px]  py-5 md:py-5 border-[1px] border-secondary hover:bg-secondary hover:text-white lg:text-4xl w-full'>Project</button>
             </a>
        
         </div>
