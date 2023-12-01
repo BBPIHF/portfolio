@@ -10,7 +10,7 @@ const Home = () => {
       className="section min-h-screen w-full home-bg test flex flex-col lg:flex-row items-center lg:gap-[5rem]  justify-evenly"
     >
       <motion.div
-        className="lg:max-w-[50%] lg:text-left pt-[50px]"
+        className="lg:max-w-[70%] lg:text-left pt-[50px]"
         animate={{
           y: 0,
         }}
@@ -33,9 +33,9 @@ const Home = () => {
           Graphic Desinger.
         </h2>
         <p className="text-3xl  md:text-4xl text-slate-400  leading-[1.2] pt-10">
-          I'm a creative designer, I like to craft solid and scalable frontend
-          products with great user experience, eager to embark on a journey of
-          professional growth.
+          I’m a Frontend Developer currently based in Nigeria , I like to craft
+          solid and scalable frontend products with great user experience, eager
+          to embark on a journey of professional growth.
         </p>
 
         <div className="mt-[40px] flex flex-col md:flex-row  gap-7">
