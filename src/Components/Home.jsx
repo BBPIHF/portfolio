@@ -67,6 +67,7 @@ const Home = () => {
           duration: 2,
           type: "spring",
           stiffness: "100",
+          delay: 1.5,
         }}
       >
         <img src={homeImg} alt="Photo" />

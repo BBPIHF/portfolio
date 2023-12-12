@@ -20,13 +20,17 @@ const Contact = () => {
         {navLinks.map((link, index) => (
           <li
             key={link.label}
+            onClick={() => {
+              const navElement = document.getElementById(`${link.href}`);
+              if (navElement) {
+                navElement.scrollIntoView({ behavior: "smooth" });
+              }
+            }}
             className={
               "text-slate-500 transition-all border border-slate-500  cursor-pointer hover:text-white hover:bg-primary"
             }
           >
-            <a href={link.href} className="">
-              <p className=" py-2 px-4 text-3xl">{link.label}</p>
-            </a>
+            <p className=" py-2 px-4 text-3xl">{link.label}</p>
           </li>
         ))}
       </div>
