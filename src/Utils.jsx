@@ -69,16 +69,20 @@ export const techStact = [
 export const experience = [
   {
     name: "UCH",
-    post: "IT support Intern",
+    post: "Frontend Developer (SIWES)",
     date: "Oct. 2017-Jan 2018",
     id: 1,
     company: "University College Hospital, Oyo State, Nigeria",
     responsibilities: [
       {
-        name: "Received training on Hardware and Software Maintenance, Worked closely with other developers and departments on various web development projects.",
+        name: "Received training in front-end web development using HTML, CSS and JavaScript.",
       },
       {
-        name: "Perform routine maintenance tasks, such as updates, patches, system backups and demonstrated strong problem-solving skills when encountering coding challenges.",
+        name: "Worked closely with other developers and departments on various web development projects.",
+      },
+
+      {
+        name: "Demonstrated strong problem-solving skills when encountering coding challenges.",
       },
     ],
   },
