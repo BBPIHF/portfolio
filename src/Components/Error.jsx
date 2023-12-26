@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import error from "../Assets/error-img.jpg";
+import error from "../assets/error-img.jpg";
 const Error = () => {
   return (
     <div className="text-center flex justify-center items-center h-[100vh] flex-col">
