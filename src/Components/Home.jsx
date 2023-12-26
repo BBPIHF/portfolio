@@ -10,7 +10,7 @@ const Home = () => {
       className="section min-h-screen w-full home-bg test flex flex-col lg:flex-row items-center lg:gap-[5rem]  justify-evenly"
     >
       <motion.div
-        className="lg:max-w-[70%] lg:text-left pt-[50px]"
+        className="lg:max-w-[60%] lg:text-left pt-[50px]"
         animate={{
           y: 0,
         }}
@@ -24,7 +24,7 @@ const Home = () => {
         <p className="text-secondary text-3xl md:text-5xl font-mono lg:text-3xl">
           Hi, my name is
         </p>
-        <h1 className="lg:text-8xl md:text-7xl text-[22px] font-bold pt-8 md:pt-20 md:pb-6  text-white">
+        <h1 className="lg:text-7xl md:text-6xl text-[22px] font-bold pt-8 md:pt-10 md:pb-4  text-white">
           INAOLAJI TOPE MICHAEL.
         </h1>
         <h2 className="lg:text-7xl md:text-6xl text-[22px] font-bold text-slate-400">
