@@ -27,8 +27,8 @@ const Sidebar = ({ toggle }) => {
             className="rounded-full border-4 border-secondary bg-tertiary mx-auto"
           />
 
-          <h1 className="font-bold pt-3 text-white text-4xl">
-            Inaolaji Tope Michael
+          <h1 className="font-bold pt-3 text-white text-3xl">
+            INAOLAJI TOPE MICHAEL
           </h1>
 
           <div className="flex gap-4 justify-center mt-3">

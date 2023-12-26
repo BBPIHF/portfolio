@@ -62,10 +62,9 @@ const About = () => {
           </AnimatedParagraph>
 
           <AnimatedParagraph index={3}>
-            Beyond coding, I am a seasoned graphic designer with over five years
-            of experience. My creative flair and technical prowess combine to
-            make me a versatile professional in both the visual and functional
-            aspects of digital projects.
+            Beyond coding, I am a seasoned graphic designer. My creative flair
+            and technical prowess combine to make me a versatile professional in
+            both the visual and functional aspects of digital projects.
           </AnimatedParagraph>
         </div>
       </motion.div>

@@ -24,16 +24,14 @@ const Home = () => {
         <p className="text-secondary text-3xl md:text-5xl font-mono lg:text-3xl">
           Hi, my name is
         </p>
-        <h1 className="lg:text-6xl md:text-5xl text-5xl font-bold py-8  text-white">
-          Inaolaji Tope Michael.
+        <h1 className="lg:text-6xl md:text-5xl text-4xl font-bold pt-8 pb-4  text-white">
+          INAOLAJI TOPE MICHAEL.
         </h1>
-        <h2 className="lg:text-6xl md:text-5xl text-5xl font-bold text-slate-400">
-          Frontend Developer/
-          <br />
-          Graphic Desinger.
+        <h2 className="lg:text-6xl md:text-5xl text-4xl font-bold text-slate-400">
+          Frontend Developer
         </h2>
-        <p className="text-3xl  md:text-4xl text-slate-400  leading-[1.2] pt-10">
-          I’m a Frontend Developer currently based in Nigeria , I like to craft
+        <p className="text-2xl  md:text-3xl text-slate-400  leading-[1.2] pt-10">
+          I’m a Frontend Developer currently based in Nigeria, I like to craft
           solid and scalable frontend products with great user experience, eager
           to embark on a journey of professional growth.
         </p>

@@ -69,8 +69,8 @@ export const techStact = [
 export const experience = [
   {
     name: "UCH",
-    post: "Frontend Developer (SIWES)",
-    date: "Oct. 2017-Jan 2018",
+    post: "Frontend Dev. (SIWES)",
+    date: "Oct. 2017-Jan. 2018",
     id: 1,
     company: "University College Hospital, Oyo State, Nigeria",
     responsibilities: [
@@ -235,14 +235,4 @@ export const contacts = [
     link: "https://twitter.com/natty_graphics",
   },
   { icon: Email, name: "Email", link: "mailto:topeinaolaji1@gmail.com" },
-  {
-    icon: Facebook,
-    name: "Facebook",
-    link: "https://www.facebook.com/tope.inaolaji",
-  },
-  {
-    icon: Instagram,
-    name: "Instagram",
-    link: "https://www.instagram.com/nattygraphics01",
-  },
 ];
